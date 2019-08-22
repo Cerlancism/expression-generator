@@ -1,0 +1,27 @@
+{
+  "name": "expression-generator",
+  "version": "0.1.0",
+  "description": "A JavaScript base project to generate elementary level Mathematics expressions.",
+  "scripts": {
+    "start": "parcel serve src/index.html",
+    "build": "parcel build src/index.html --out-dir build/ --public-url ./ --no-minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cerlancism/expression-generator.git"
+  },
+  "author": "Cerlancism",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cerlancism/expression-generator/issues"
+  },
+  "homepage": "https://github.com/Cerlancism/expression-generator#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/parcel-env": "0.0.0",
+    "@babel/core": "^7.5.5",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.5.3"
+  }
+}

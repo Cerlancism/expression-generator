@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parcel Scratchpad</title>
+    <style>
+        /* body {
+            background: #212121;
+        } */
+
+        pre {
+            /* color: #fafafa; */
+            margin: 0.25em;
+        }
+    </style>
+    <script defer>
+        const logger = console.log
+        console.log = (message, ...any) =>
+        {
+            logger(message, ...any)
+            const pre = document.createElement('pre')
+            pre.innerHTML = `${message.toString()} ${any.map(x => x.toString()).join(" ")}`
+            document.body.appendChild(pre)
+        }
+    </script>
+    <script defer src="index.ts"></script>
+</head>
+
+<body>
+</body>
+
+</html>
