@@ -1,7 +1,7 @@
 {
   "name": "expression-generator",
   "version": "0.1.0",
-  "description": "A JavaScript base project to generate elementary level Mathematics expressions.",
+  "description": "A TypeScript base project to generate elementary level Mathematics expressions.",
   "scripts": {
     "start": "parcel serve src/index.html",
     "build": "parcel build src/index.html --out-dir build/ --public-url ./ --no-minify"
