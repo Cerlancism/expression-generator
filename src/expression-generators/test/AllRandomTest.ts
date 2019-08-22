@@ -29,7 +29,7 @@ if (isNaN(i) || i <= 0)
 {
     i = 100
     urlParams.set("count", "100")
-    location.search = urlParams.toString()
+    history.replaceState(null, null, "?" + decodeURIComponent(urlParams.toString()));
 }
 
 while (i--)

@@ -1650,7 +1650,7 @@ let i = Number(urlParams.get("count"));
 if (isNaN(i) || i <= 0) {
   i = 100;
   urlParams.set("count", "100");
-  location.search = urlParams.toString();
+  history.replaceState(null, null, "?" + decodeURIComponent(urlParams.toString()));
 }
 
 while (i--) {
@@ -1662,4 +1662,4 @@ while (i--) {
 
 require("./expression-generators/test/AllRandomTest");
 },{"./expression-generators/test/AllRandomTest":"BhBE"}]},{},["7QCb"], null)
-//# sourceMappingURL=src.4804256d.js.map
+//# sourceMappingURL=src.0bcf48fc.js.map
