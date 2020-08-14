@@ -119,7 +119,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   return newRequire;
 })({"Wx4v":[function(require,module,exports) {
 
-},{}],"5jtI":[function(require,module,exports) {
+},{}],"jtIn":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -217,7 +217,7 @@ Object.keys(_OperatorSign).forEach(function (key) {
     }
   });
 });
-},{"./types":"Wx4v","./IOperation":"Wx4v","./IOperator":"Wx4v","./IReducible":"Wx4v","./OperatorSign":"5jtI"}],"ckG8":[function(require,module,exports) {
+},{"./types":"Wx4v","./IOperation":"Wx4v","./IOperator":"Wx4v","./IReducible":"Wx4v","./OperatorSign":"jtIn"}],"ckG8":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -475,7 +475,7 @@ class FlatStep {
 }
 
 exports.FlatStep = FlatStep;
-},{"./core":"bxzU","./ArithmeticUnits":"ckG8"}],"6Udi":[function(require,module,exports) {
+},{"./core":"bxzU","./ArithmeticUnits":"ckG8"}],"UdiW":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -836,7 +836,7 @@ Object.keys(_CompositeStep).forEach(function (key) {
     }
   });
 });
-},{"./ArithmeticUnits":"ckG8","./FlatStep":"fW6r","./CompositeStep":"6Udi"}],"skTz":[function(require,module,exports) {
+},{"./ArithmeticUnits":"ckG8","./FlatStep":"fW6r","./CompositeStep":"UdiW"}],"skTz":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1335,7 +1335,7 @@ function generateRandom(questionNumber) {
 //         }
 //     }
 // }
-},{"./Helpers":"skTz","../operator-precedence":"PcmK","./AdditionSubtraction":"nuR5","./MultiplicationDivision":"km1k","../operator-precedence/core":"bxzU"}],"4tix":[function(require,module,exports) {
+},{"./Helpers":"skTz","../operator-precedence":"PcmK","./AdditionSubtraction":"nuR5","./MultiplicationDivision":"km1k","../operator-precedence/core":"bxzU"}],"tixY":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1631,7 +1631,7 @@ function generateRandom(questionNumber) {
 //         }
 //     }
 // }
-},{"../operator-precedence":"PcmK","./Helpers":"skTz","./ParentesisOnly":"4tix","../operator-precedence/core":"bxzU","./MDAS":"ueG4"}],"BhBE":[function(require,module,exports) {
+},{"../operator-precedence":"PcmK","./Helpers":"skTz","./ParentesisOnly":"tixY","../operator-precedence/core":"bxzU","./MDAS":"ueG4"}],"BhBE":[function(require,module,exports) {
 function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
@@ -1657,9 +1657,9 @@ while (i--) {
   const exp = allRandomGenerator(getRandomInt(1, 9));
   console.log(exp, "=", exp.result());
 }
-},{"../AdditionSubtraction":"nuR5","../MultiplicationDivision":"km1k","../MDAS":"ueG4","../PMDAS":"XaZL"}],"7QCb":[function(require,module,exports) {
+},{"../AdditionSubtraction":"nuR5","../MultiplicationDivision":"km1k","../MDAS":"ueG4","../PMDAS":"XaZL"}],"QCba":[function(require,module,exports) {
 "use strict";
 
 require("./expression-generators/test/AllRandomTest");
-},{"./expression-generators/test/AllRandomTest":"BhBE"}]},{},["7QCb"], null)
+},{"./expression-generators/test/AllRandomTest":"BhBE"}]},{},["QCba"], null)
 //# sourceMappingURL=src.0bcf48fc.js.map

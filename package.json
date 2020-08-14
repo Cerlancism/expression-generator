@@ -18,10 +18,10 @@
   "homepage": "https://github.com/Cerlancism/expression-generator#readme",
   "dependencies": {},
   "devDependencies": {
+    "@babel/core": "^7.11.1",
     "@types/parcel-env": "0.0.0",
-    "@babel/core": "^7.5.5",
     "babel-preset-env": "^1.7.0",
-    "parcel-bundler": "^1.12.3",
-    "typescript": "^3.5.3"
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.7"
   }
 }
